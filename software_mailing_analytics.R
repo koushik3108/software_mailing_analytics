@@ -9,7 +9,7 @@ library(rpart)
 theme_set(theme_minimal())
 
 # File Path
-data_path <- '/Users/koushiksoma/Desktop/Analytics Practicum/Case 2/Software_Mailing_List.csv'
+data_path <- 'Software_Mailing_List.csv'
 
 # Load data
 df <- read_csv(data_path, show_col_types = FALSE)
